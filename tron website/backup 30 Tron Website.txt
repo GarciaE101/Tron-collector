@@ -1,0 +1,1427 @@
+html: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>TRON: Legacy Collection Tracker</title>
+  <link rel="icon" type="image/x-icon" href="disc-logo.jpg">
+  <link rel="stylesheet" href="Tron_website.css">
+</head>
+<body>
+
+<main class="wrap">
+  <h1 class="title">TRON: Legacy Collection</h1>
+
+  <div class="overall-progress-container">
+    <div class="progress-label">Total Collection Progress: <span id="total-percent">0%</span></div>
+    <div class="progress-bar-bg">
+      <div id="progress-bar-fill" class="progress-bar-fill"></div>
+    </div>
+    <div class="worth-label">Total Collection Worth: <span id="total-worth">$0.00</span></div>
+  </div>
+
+  <h2>Core Figures: Wave One <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="blck-tron.jpg" alt="Panel 1">
+      <p><span class="panel-title" data-panel="1">Panel 1</span><br>Black Guard Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="clu_tron.jpg" alt="Panel 2">
+      <p><span class="panel-title" data-panel="2">Panel 2</span><br>CLU Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="clu2_tron.jpg" alt="Panel 3">
+      <p><span class="panel-title" data-panel="3">Panel 3</span><br>CLU Sentry Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="Kevin_tron.jpg" alt="Panel 4">
+      <p><span class="panel-title" data-panel="4">Panel 4</span><br>Kevin Flynn Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="Rinzler_tron.jpg" alt="Panel 5">
+      <p><span class="panel-title" data-panel="5">Panel 5</span><br>Rinzler Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="sam_flynn.jpg" alt="Panel 6">
+      <p><span class="panel-title" data-panel="6">Panel 6</span><br>Sam Flynn Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Core Figures: Wave Two <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="Castor_tron.jpg" alt="Panel 7">
+      <p><span class="panel-title" data-panel="7">Panel 7</span><br>Castor Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="Quorra_tron.jpg" alt="Panel 8">
+      <p><span class="panel-title" data-panel="8">Panel 8</span><br>Quorra Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="jarvis_tron.webp" alt="Panel 9">
+      <p><span class="panel-title" data-panel="9">Panel 9</span><br>Jarvis Core Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Core Figures: Deluxe Figures <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="deluxe_blck_guard_tron.webp" alt="Panel 10">
+      <p><span class="panel-title" data-panel="10">Panel 10</span><br>Deluxe Black Guard</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="deluxe_clu_tron.jpg" alt="Panel 11">
+      <p><span class="panel-title" data-panel="11">Panel 11</span><br>Deluxe CLU Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="deluxe_Rin.jpg" alt="Panel 12">
+      <p><span class="panel-title" data-panel="12">Panel 12</span><br>Deluxe Rinzler Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="Deluxe_sam.jpg" alt="Panel 13">
+      <p><span class="panel-title" data-panel="13">Panel 13</span><br>Deluxe Sam Flynn Figure</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Hot Toys & Statues <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db79.jpg" alt="Panel 14">
+      <p><span class="panel-title" data-panel="14">Panel 14</span><br>Kevin Flynn Hot Toys</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db80.jpg" alt="Panel 15">
+      <p><span class="panel-title" data-panel="15">Panel 15</span><br>Sam Flynn Hot Toys</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db81.jpg" alt="Panel 16">
+      <p><span class="panel-title" data-panel="16">Panel 16</span><br>Rinzler Sideshow Statue</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db82.webp" alt="Panel 17">
+      <p><span class="panel-title" data-panel="17">Panel 17</span><br>Daft Punk Hot Toys</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Core Figures: Ultimate Figures <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="ultimate_clu.webp" alt="Panel 18">
+      <p><span class="panel-title" data-panel="18">Panel 18</span><br>Ultimate CLU</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="ultimate_clu.webp" alt="Panel 19">
+      <p><span class="panel-title" data-panel="19">Panel 19</span><br>Ultimate Sam Flynn</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Core Vehicles <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="kevin_deluxe_light.webp" alt="Panel 20">
+      <p><span class="panel-title" data-panel="20">Panel 20</span><br>Kevin Flynn's Core Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="one_man.webp" alt="Panel 21">
+      <p><span class="panel-title" data-panel="21">Panel 21</span><br>One Man Light Jet</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Core Vehicles: Deluxe <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="deluxe_light.jpg" alt="Panel 22">
+      <p><span class="panel-title" data-panel="22">Panel 22</span><br>Deluxe Light Runner</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="deluxe_sam2.jpg" alt="Panel 23">
+      <p><span class="panel-title" data-panel="23">Panel 23</span><br>Sam Flynn's Deluxe Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="deluxe_clu2.webp" alt="Panel 24">
+      <p><span class="panel-title" data-panel="24">Panel 24</span><br>CLU's Deluxe Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Identity Discs <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="cheap1.jpg" alt="Panel 25">
+      <p><span class="panel-title" data-panel="25">Panel 25</span><br>Core Rinzler Identity Disc</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="cheap2.jpg" alt="Panel 26">
+      <p><span class="panel-title" data-panel="26">Panel 26</span><br>Core Sam Flynn Identity Disc</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="id2.jpg" alt="Panel 27">
+      <p><span class="panel-title" data-panel="27">Panel 27</span><br>Deluxe Sam Flynn Identity Disc</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="id1.jpg" alt="Panel 28">
+      <p><span class="panel-title" data-panel="28">Panel 28</span><br>Deluxe Rinzler Identity Disc</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="id3.jpg" alt="Panel 29">
+      <p><span class="panel-title" data-panel="29">Panel 29</span><br>Deluxe Kevin Flynn Identity Disc</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db75.webp" alt="Panel 30">
+      <p><span class="panel-title" data-panel="30">Panel 30</span><br>Kevin Flynn Wave Three</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db76.webp" alt="Panel 31">
+      <p><span class="panel-title" data-panel="31">Panel 31</span><br>Sam Flynn Wave Three</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db77.jpg" alt="Panel 32">
+      <p><span class="panel-title" data-panel="32">Panel 32</span><br>Ares Identity Disc</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Die Cast Vehicles <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="s1.jpg" alt="Panel 33">
+      <p><span class="panel-title" data-panel="33">Panel 33</span><br>CLU's Sentry Die Cast Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s2.jpg" alt="Panel 34">
+      <p><span class="panel-title" data-panel="34">Panel 34</span><br>CLU's Command Ship Die Cast</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s3.jpg" alt="Panel 35">
+      <p><span class="panel-title" data-panel="35">Panel 35</span><br>CLU's Die Cast Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s4.jpg" alt="Panel 36">
+      <p><span class="panel-title" data-panel="36">Panel 36</span><br>Kevin Flynn's Die Cast Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s5.jpg" alt="Panel 37">
+      <p><span class="panel-title" data-panel="37">Panel 37</span><br>Sam Flynn's Die Cast Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s6.jpg" alt="Panel 38">
+      <p><span class="panel-title" data-panel="38">Panel 38</span><br>Light Runner Die Cast</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s7.jpg" alt="Panel 39">
+      <p><span class="panel-title" data-panel="39">Panel 39</span><br>Recognizer Die Cast</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s8.jpg" alt="Panel 40">
+      <p><span class="panel-title" data-panel="40">Panel 40</span><br>One Man Light Jet Die Cast</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s9.jpg" alt="Panel 41">
+      <p><span class="panel-title" data-panel="41">Panel 41</span><br>Three Man Jet Die Cast</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s12.jpg" alt="Panel 42">
+      <p><span class="panel-title" data-panel="42">Panel 42</span><br>Grid Limo Die Cast</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s10.jpg" alt="Panel 43">
+      <p><span class="panel-title" data-panel="43">Panel 43</span><br>Die Cast Hero 3-pack (Set A)</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="s11.jpg" alt="Panel 44">
+      <p><span class="panel-title" data-panel="44">Panel 44</span><br>Die Cast Hero 3-pack (Set B)</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Playsets & Other <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="coliseum.webp" alt="Panel 45">
+      <p><span class="panel-title" data-panel="45">Panel 45</span><br>Coliseum Disc Battle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="light_cycle_pursuit.webp" alt="Panel 46">
+      <p><span class="panel-title" data-panel="46">Panel 46</span><br>Light Cycle Pursuit Set</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="Recognizer_playset.webp" alt="Panel 47">
+      <p><span class="panel-title" data-panel="47">Panel 47</span><br>Recognizer Playset</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db20.jpg" alt="Panel 48">
+      <p><span class="panel-title" data-panel="48">Panel 48</span><br>Tron Legacy Lego</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db21.jpg" alt="Panel 49">
+      <p><span class="panel-title" data-panel="49">Panel 49</span><br>Monster Tron Light Disc Speaker</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db31.webp" alt="Panel 50">
+      <p><span class="panel-title" data-panel="50">Panel 50</span><br>Sam Flynn 4GB USB</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db32.jpg" alt="Panel 51">
+      <p><span class="panel-title" data-panel="51">Panel 51</span><br>Kevin Flynn 8GB USB</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db78.webp" alt="Panel 52">
+      <p><span class="panel-title" data-panel="52">Panel 52</span><br>CLU Ornament</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db79.webp" alt="Panel 53">
+      <p><span class="panel-title" data-panel="53">Panel 53</span><br>Sam Flynn Ornament</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Gaming Exclusives <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db22.webp" alt="Panel 54">
+      <p><span class="panel-title" data-panel="54">Panel 54</span><br>Razer Tron Mouse</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db23.webp" alt="Panel 55">
+      <p><span class="panel-title" data-panel="55">Panel 55</span><br>Razer Tron Mouse Mat</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db24.jpg" alt="Panel 56">
+      <p><span class="panel-title" data-panel="56">Panel 56</span><br>Razer Tron Keyboard</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db25.jpg" alt="Panel 57">
+      <p><span class="panel-title" data-panel="57">Panel 57</span><br>Tron Evolution Collectible</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db26.webp" alt="Panel 58">
+      <p><span class="panel-title" data-panel="58">Panel 58</span><br>PDP Wii Tron Controller</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db27.webp" alt="Panel 59">
+      <p><span class="panel-title" data-panel="59">Panel 59</span><br>PDP XBox 360 Lime Green</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db28.webp" alt="Panel 60">
+      <p><span class="panel-title" data-panel="60">Panel 60</span><br>PDP XBox 360 White</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db29.webp" alt="Panel 61">
+      <p><span class="panel-title" data-panel="61">Panel 61</span><br>PDP XBox 360 Orange</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db30.webp" alt="Panel 62">
+      <p><span class="panel-title" data-panel="62">Panel 62</span><br>PDP XBox 360 White Siren</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db33.jpg" alt="Panel 63">
+      <p><span class="panel-title" data-panel="63">Panel 63</span><br>PDP XBox 360 Blue</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db34.jpg" alt="Panel 64">
+      <p><span class="panel-title" data-panel="64">Panel 64</span><br>PSP Tron Evolution</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db35.webp" alt="Panel 65">
+      <p><span class="panel-title" data-panel="65">Panel 65</span><br>PC Tron Evolution</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db36.webp" alt="Panel 66">
+      <p><span class="panel-title" data-panel="66">Panel 66</span><br>XBox 360 Tron Evolution</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db37.webp" alt="Panel 67">
+      <p><span class="panel-title" data-panel="67">Panel 67</span><br>PS3 Tron Evolution</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db38.webp" alt="Panel 68">
+      <p><span class="panel-title" data-panel="68">Panel 68</span><br>Wii Tron Evolution Battle Grids</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Target Exclusives <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="f1.webp" alt="Panel 69">
+      <p><span class="panel-title" data-panel="69">Panel 69</span><br>Baton Launcher</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f2.webp" alt="Panel 70">
+      <p><span class="panel-title" data-panel="70">Panel 70</span><br>CLU's Light Cycle + Quorra</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f3.jpg" alt="Panel 71">
+      <p><span class="panel-title" data-panel="71">Panel 71</span><br>Forming Light Cycle Sam Flynn</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f4.webp" alt="Panel 72">
+      <p><span class="panel-title" data-panel="72">Panel 72</span><br>Rinzler + Quorra Action Pack</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f5.jpg" alt="Panel 73">
+      <p><span class="panel-title" data-panel="73">Panel 73</span><br>Sam Flynn's Light Cycle + Sentry</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f6.jpg" alt="Panel 74">
+      <p><span class="panel-title" data-panel="74">Panel 74</span><br>Sam Flynn + Rinzler Disc Battle 1</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f7.jpg" alt="Panel 75">
+      <p><span class="panel-title" data-panel="75">Panel 75</span><br>Sam Flynn + Rinzler Disc Battle 2</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f8.jpg" alt="Panel 76">
+      <p><span class="panel-title" data-panel="76">Panel 76</span><br>Jarvis + Black Guard</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f9.webp" alt="Panel 77">
+      <p><span class="panel-title" data-panel="77">Panel 77</span><br>Sam Flynn + Tron Arcade</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f10.jpg" alt="Panel 78">
+      <p><span class="panel-title" data-panel="78">Panel 78</span><br>Sam Flynn + Siren</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f11.jpg" alt="Panel 79">
+      <p><span class="panel-title" data-panel="79">Panel 79</span><br>Black Guard + Rinzler Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f12.jpg" alt="Panel 80">
+      <p><span class="panel-title" data-panel="80">Panel 80</span><br>CLU + Castor Action Pack</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="f13.jpg" alt="Panel 81">
+      <p><span class="panel-title" data-panel="81">Panel 81</span><br>Sam Flynn + CLU</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+   <article class="card">
+      <img src="f14.jpg" alt="Panel 82">
+      <p><span class="panel-title" data-panel="82">Panel 82</span><br>Black Guard + Vintage Light Cycle</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Air Hogs <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="rc1.webp" alt="Panel 83">
+      <p><span class="panel-title" data-panel="83">Panel 83</span><br>Light Cycle: CLU Zero Gravity R/C</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="rc2.jpg" alt="Panel 84">
+      <p><span class="panel-title" data-panel="84">Panel 84</span><br>Light Cycle: Sam Flynn Zero Gravity R/C</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Tron Vinyls <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db45.jpg" alt="Panel 85">
+      <p><span class="panel-title" data-panel="85">Panel 85</span><br>Translucence Blue Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db44.jpg" alt="Panel 86">
+      <p><span class="panel-title" data-panel="86">Panel 86</span><br>Translucence Red Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db43.jpg" alt="Panel 87">
+      <p><span class="panel-title" data-panel="87">Panel 87</span><br>Translucence Orange Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db49.jpg" alt="Panel 88">
+      <p><span class="panel-title" data-panel="88">Panel 88</span><br>Tron Legacy Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db46.jpg" alt="Panel 89">
+      <p><span class="panel-title" data-panel="89">Panel 89</span><br>Tron Legacy Target Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db47.jpg" alt="Panel 90">
+      <p><span class="panel-title" data-panel="90">Panel 90</span><br>Tron Legacy 10th Anniversary Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db48.jpg" alt="Panel 91">
+      <p><span class="panel-title" data-panel="91">Panel 91</span><br>Tron Legacy Reconfigured Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db55.jpg" alt="Panel 92">
+      <p><span class="panel-title" data-panel="92">Panel 92</span><br>Tron Legacy Reconfigured Green</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db50.jpg" alt="Panel 93">
+      <p><span class="panel-title" data-panel="93">Panel 93</span><br>Tron Ares Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db51.jpg" alt="Panel 94">
+      <p><span class="panel-title" data-panel="94">Panel 94</span><br>Tron Ares Target Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db52.jpg" alt="Panel 95">
+      <p><span class="panel-title" data-panel="95">Panel 95</span><br>Tron Ares Hot Topic Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db53.jpeg" alt="Panel 96">
+      <p><span class="panel-title" data-panel="96">Panel 96</span><br>Tron Ares Comic Con Vinyl</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Media <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db42.jpg" alt="Panel 97">
+      <p><span class="panel-title" data-panel="97">Panel 97</span><br>Walmart Exclusive Tron Legacy</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db56.jpg" alt="Panel 98">
+      <p><span class="panel-title" data-panel="98">Panel 98</span><br>Tron Legacy Collectors Edition</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db57.jpg" alt="Panel 99">
+      <p><span class="panel-title" data-panel="99">Panel 99</span><br>Tron Legacy DVD</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db58.jpg" alt="Panel 100">
+      <p><span class="panel-title" data-panel="100">Panel 100</span><br>Tron Legacy Blu-ray</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db59.jpg" alt="Panel 101">
+      <p><span class="panel-title" data-panel="101">Panel 101</span><br>Tron 1982 DVD</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db60.jpg" alt="Panel 102">
+      <p><span class="panel-title" data-panel="102">Panel 102</span><br>Tron 1982 Blu-ray</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db61.webp" alt="Panel 103">
+      <p><span class="panel-title" data-panel="103">Panel 103</span><br>Tron Ares DVD</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db62.jpg" alt="Panel 104">
+      <p><span class="panel-title" data-panel="104">Panel 104</span><br>Tron Ares SteelBook 2025</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db63.jpg" alt="Panel 105">
+      <p><span class="panel-title" data-panel="105">Panel 105</span><br>Tron Legacy SteelBook 2025</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db66.jpg" alt="Panel 106">
+      <p><span class="panel-title" data-panel="106">Panel 106</span><br>Tron SteelBook 2025</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db64.jpg" alt="Panel 107">
+      <p><span class="panel-title" data-panel="107">Panel 107</span><br>Tron Legacy Original SteelBook</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db65.jpg" alt="Panel 108">
+      <p><span class="panel-title" data-panel="108">Panel 108</span><br>Tron Legacy 4k UltraHD</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Dorbz <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db1.jpg" alt="Panel 109">
+      <p><span class="panel-title" data-panel="109">Panel 109</span><br>Sark #404 Dorbz</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db2.jpg" alt="Panel 110">
+      <p><span class="panel-title" data-panel="110">Panel 110</span><br>Tron #403 Dorbz</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db3.jpg" alt="Panel 111">
+      <p><span class="panel-title" data-panel="111">Panel 111</span><br>Tron Chase #403 Dorbz</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Funko Pops <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db4.jpg" alt="Panel 112">
+      <p><span class="panel-title" data-panel="112">Panel 112</span><br>Tron on Light Cycle #134</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db5.jpg" alt="Panel 113">
+      <p><span class="panel-title" data-panel="113">Panel 113</span><br>Kevin Flynn #1854</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db6.jpg" alt="Panel 114">
+      <p><span class="panel-title" data-panel="114">Panel 114</span><br>Kevin Flynn #1856 GITD</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db7.jpg" alt="Panel 115">
+      <p><span class="panel-title" data-panel="115">Panel 115</span><br>Sark #490</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db8.jpg" alt="Panel 116">
+      <p><span class="panel-title" data-panel="116">Panel 116</span><br>Sark Chase #490</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db9.jpg" alt="Panel 117">
+      <p><span class="panel-title" data-panel="117">Panel 117</span><br>Tron #489</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db10.jpg" alt="Panel 118">
+      <p><span class="panel-title" data-panel="118">Panel 118</span><br>Tron Chase #489</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db11.jpg" alt="Panel 119">
+      <p><span class="panel-title" data-panel="119">Panel 119</span><br>Yori #1855</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="bit.webp" alt="Panel 120">
+      <p><span class="panel-title" data-panel="120">Panel 120</span><br>Tron Bitty Arcade</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db16.webp" alt="Panel 121">
+      <p><span class="panel-title" data-panel="121">Panel 121</span><br>Freddy Funko as Tron #se (1)</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db17.webp" alt="Panel 122">
+      <p><span class="panel-title" data-panel="122">Panel 122</span><br>Freddy Funko as Tron #se (2)</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db18.webp" alt="Panel 123">
+      <p><span class="panel-title" data-panel="123">Panel 123</span><br>Sora/Goofy/Donald Pack</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db19.jpg" alt="Panel 124">
+      <p><span class="panel-title" data-panel="124">Panel 124</span><br>Sora/Goofy/Donald Chase Pack</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db54.webp" alt="Panel 125">
+      <p><span class="panel-title" data-panel="125">Panel 125</span><br>Digital Stan #36</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Tron Ares Pops <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db12.jpg" alt="Panel 126">
+      <p><span class="panel-title" data-panel="126">Panel 126</span><br>Athena + Light Cycle #316</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db13.jpg" alt="Panel 127">
+      <p><span class="panel-title" data-panel="127">Panel 127</span><br>Ares #1965</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db14.jpg" alt="Panel 128">
+      <p><span class="panel-title" data-panel="128">Panel 128</span><br>Kevin Flynn #1966</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db21.webp" alt="Panel 129">
+      <p><span class="panel-title" data-panel="129">Panel 129</span><br>Eve Kim #1970</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Disney Infinity <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db15.jpg" alt="Panel 130">
+      <p><span class="panel-title" data-panel="130">Panel 130</span><br>Infinity Sam Flynn</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db15.jpg" alt="Panel 131">
+      <p><span class="panel-title" data-panel="131">Panel 131</span><br>Infinity Quorra</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+
+  <h2>Tron Vinylation <span class="percent-display"></span></h2>
+  <section class="grid">
+    <article class="card">
+      <img src="db67.webp" alt="Panel 132">
+      <p><span class="panel-title" data-panel="132">Panel 132</span><br>Tron Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db68.webp" alt="Panel 133">
+      <p><span class="panel-title" data-panel="133">Panel 133</span><br>Rinzler Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db69.webp" alt="Panel 134">
+      <p><span class="panel-title" data-panel="134">Panel 134</span><br>Jarvis Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db70.webp" alt="Panel 135">
+      <p><span class="panel-title" data-panel="135">Panel 135</span><br>Kevin Flynn Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db71.webp" alt="Panel 136">
+      <p><span class="panel-title" data-panel="136">Panel 136</span><br>Sam Flynn Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db72.webp" alt="Panel 137">
+      <p><span class="panel-title" data-panel="137">Panel 137</span><br>Castor Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db73.webp" alt="Panel 138">
+      <p><span class="panel-title" data-panel="138">Panel 138</span><br>CLU Vinylation</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+    <article class="card">
+      <img src="db74.webp" alt="Panel 139">
+      <p><span class="panel-title" data-panel="139">Panel 139</span><br>Rinzler Vinylation (Alt)</p>
+      <div class="card-controls">
+        <select class="source-select"><option value="unowned">Not Owned</option><option value="bought">Bought</option><option value="gift">Gift</option></select>
+        <input type="number" class="price-input" placeholder="$ Spent" step="0.01">
+      </div>
+    </article>
+  </section>
+</main>
+
+<button id="resetCollected" class="reset-btn">Reset Data</button>
+<script src="Tron_website.js"></script>
+</body>
+</html>
+
+css:
+:root {
+  --bg: #061b1f;
+  --panel: #0c2c33;
+  --accent: #00e5ff;
+  --text: #cceff4;
+  --success: #39ff14;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(1200px 600px at 50% 0%, #082328 0%, var(--bg) 60%, #031014 100%);
+  color: var(--text);
+  font-family: "Segoe UI", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.wrap { width: 95%; max-width: 1200px; margin: 0 auto; padding: 32px 20px 48px; }
+
+.title {
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: clamp(28px, 6vw, 56px);
+  color: var(--accent);
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.25);
+  animation: blink 3s infinite;
+}
+
+@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+.overall-progress-container {
+  background: rgba(12, 44, 51, 0.6);
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.progress-bar-bg {
+  width: 100%; height: 12px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+.progress-bar-fill {
+  width: 0%; height: 100%;
+  background: linear-gradient(90deg, #0072ff, var(--accent));
+  box-shadow: 0 0 15px var(--accent);
+  transition: width 0.8s ease;
+}
+
+.worth-label {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: var(--success);
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+}
+
+h2 { border-left: 4px solid var(--accent); padding-left: 15px; margin-top: 60px; }
+
+.percent-display {
+  font-size: 0.65em; color: var(--accent); margin-left: 15px;
+  background: rgba(0, 229, 255, 0.1); padding: 2px 8px; border-radius: 4px;
+}
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid rgba(0, 229, 255, 0.28);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex; flex-direction: column; align-items: center;
+}
+
+.card.is-collected {
+  border-color: var(--success);
+  box-shadow: inset 0 0 15px rgba(57, 255, 20, 0.1);
+}
+
+.card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; cursor: pointer; }
+
+.source-select {
+  background: #052126; color: var(--accent);
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  margin-bottom: 15px; padding: 5px; border-radius: 4px;
+}
+
+.panel-title.collected::after {
+  content: "✔"; color: var(--success); margin-left: 8px;
+}
+
+.reset-btn {
+  display: block; margin: 40px auto; padding: 10px 20px;
+  color: #ff4d4d; border: 1px solid #ff4d4d; background: transparent; cursor: pointer;
+}
+
+js:
+document.addEventListener("DOMContentLoaded", () => {
+  // Load data from LocalStorage
+  let collected = JSON.parse(localStorage.getItem("tronCollected")) || {};
+  let sources = JSON.parse(localStorage.getItem("tronSources")) || {};
+  let userPrices = JSON.parse(localStorage.getItem("tronPrices")) || {};
+
+  const updateProgress = () => {
+    let totalItems = 0;
+    let totalCollected = 0;
+    let totalValue = 0;
+
+    // Loop through every H2 to find its section
+    document.querySelectorAll("h2").forEach(h2 => {
+      const section = h2.nextElementSibling;
+      if (section && section.classList.contains("grid")) {
+        const sectionCards = section.querySelectorAll(".card");
+        let sectionCount = 0;
+
+        sectionCards.forEach(card => {
+          const title = card.querySelector(".panel-title");
+          const id = title.dataset.panel;
+          const price = parseFloat(userPrices[id]) || 0;
+
+          if (collected[id]) {
+            sectionCount++;
+            totalValue += price;
+            card.classList.add("is-collected");
+            title.classList.add("collected");
+          } else {
+            card.classList.remove("is-collected");
+            title.classList.remove("collected");
+          }
+        });
+
+        // Update Section Badge
+        const sectionTotal = sectionCards.length;
+        const sectionPercent = sectionTotal > 0 ? Math.round((sectionCount / sectionTotal) * 100) : 0;
+        const badge = h2.querySelector(".percent-display");
+        if (badge) {
+          badge.textContent = `[ ${sectionPercent}% ]`;
+          badge.style.color = sectionPercent === 100 ? "#39ff14" : "var(--accent)";
+        }
+
+        totalItems += sectionTotal;
+        totalCollected += sectionCount;
+      }
+    });
+
+    // Update Global Bar and Worth
+    const globalPercent = totalItems > 0 ? Math.round((totalCollected / totalItems) * 100) : 0;
+    document.getElementById("progress-bar-fill").style.width = `${globalPercent}%`;
+    document.getElementById("total-percent").textContent = `${globalPercent}%`;
+    document.getElementById("total-worth").textContent = `$${totalValue.toFixed(2)}`;
+  };
+
+  // Attach listeners to every card
+  document.querySelectorAll(".card").forEach(card => {
+    const title = card.querySelector(".panel-title");
+    const id = title.dataset.panel;
+    const select = card.querySelector(".source-select");
+    const priceInput = card.querySelector(".price-input");
+
+    // Restore saved values
+    if (sources[id]) select.value = sources[id];
+    if (userPrices[id]) priceInput.value = userPrices[id];
+
+    // Click Image to Collect
+    card.querySelector("img").addEventListener("click", () => {
+      collected[id] = !collected[id];
+      if (!collected[id]) delete collected[id];
+      localStorage.setItem("tronCollected", JSON.stringify(collected));
+      updateProgress();
+    });
+
+    // Change Dropdown
+    select.addEventListener("change", (e) => {
+      sources[id] = e.target.value;
+      localStorage.setItem("tronSources", JSON.stringify(sources));
+    });
+
+    // Enter Price
+    priceInput.addEventListener("input", (e) => {
+      userPrices[id] = e.target.value;
+      localStorage.setItem("tronPrices", JSON.stringify(userPrices));
+      updateProgress();
+    });
+  });
+
+  updateProgress();
+
+  // Reset Everything
+  document.getElementById("resetCollected").addEventListener("click", () => {
+    if (confirm("De-rez all data? (Collection, Sources, and Prices)")) {
+      localStorage.clear();
+      location.reload();
+    }
+  });
+});
