@@ -32,7 +32,7 @@ body {
   text-align: center;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-size: clamp(28px, 6vw, 56px);
+  font-size: clamp(22px, 6vw, 56px);
   color: var(--accent);
   text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
   border-bottom: 1px solid rgba(0, 229, 255, 0.25);
@@ -157,12 +157,13 @@ body {
 
 .content {
   flex: 1;
+  min-width: 0;
 }
 
 /* Grid & Cards */
 .grid { 
   display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); 
   gap: 20px; 
 }
 
@@ -372,16 +373,22 @@ footer p {
   line-height: 1.6;
 }
 
-/* Media Breakpoint Adaptation Configuration Rules */
+/* ===================== TABLET (max 900px) ===================== */
 @media (max-width: 900px) {
   .main-container { 
     flex-direction: column; 
   }
+
   .sidebar { 
     width: 100%; 
     position: static; 
   }
-  
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+  }
+
   .back-to-top {
     top: auto;
     bottom: 20px;
@@ -396,8 +403,90 @@ footer p {
     right: 20px;
     transform: none;
   }
-  
+
   .back-to-top:hover {
     transform: scale(1.1);
+  }
+}
+
+/* ===================== MOBILE (max 600px) ===================== */
+@media (max-width: 600px) {
+  .wrap {
+    padding: 20px 12px 32px;
+  }
+
+  .title {
+    font-size: clamp(20px, 8vw, 32px);
+    letter-spacing: 0.06em;
+  }
+
+  /* Stack search bar vertically on small screens */
+  .search-container {
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0 24px;
+  }
+
+  .search-container select {
+    min-width: 100%;
+    width: 100%;
+  }
+
+  /* Two columns on mobile instead of one */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .card {
+    padding-bottom: 10px;
+  }
+
+  /* Slightly smaller text on cards for mobile */
+  .card p {
+    font-size: 0.8rem;
+    margin: 8px 0 4px;
+  }
+
+  .card-controls {
+    width: 92%;
+    gap: 6px;
+  }
+
+  .source-select, .grading-select, .price-input {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  /* Sidebar scrolls horizontally on mobile */
+  .sidebar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .sidebar li {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  .overall-progress-container {
+    padding: 14px;
+  }
+
+  .reset-btn {
+    margin: 30px auto 16px;
+    font-size: 0.85rem;
+  }
+}
+
+/* ===================== VERY SMALL (max 380px) ===================== */
+@media (max-width: 380px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 20px;
   }
 }
