@@ -409,3 +409,28 @@ document.addEventListener("DOMContentLoaded", () => {
   populateSidebar();
   renderCollection(collectionData);
 });
+
+// ====================== THEME SYSTEM ======================
+function toggleThemeMenu() {
+  const dropdown = document.getElementById('theme-dropdown');
+  dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+}
+
+function setTheme(name) {
+  document.body.classList.remove('theme-ares', 'theme-original');
+  if (name === 'ares') document.body.classList.add('theme-ares');
+  if (name === 'original') document.body.classList.add('theme-original');
+  localStorage.setItem('tronTheme', name);
+  document.getElementById('theme-dropdown').style.display = 'none';
+}
+
+// Load saved theme on page load
+const savedTheme = localStorage.getItem('tronTheme');
+if (savedTheme) setTheme(savedTheme);
+
+// Close menu if user clicks outside
+document.addEventListener('click', (e) => {
+  if (!document.getElementById('theme-menu').contains(e.target)) {
+    document.getElementById('theme-dropdown').style.display = 'none';
+  }
+});
