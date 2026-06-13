@@ -490,3 +490,76 @@ footer p {
     font-size: 20px;
   }
 }
+
+/* Theme Buttons in Menu */
+.theme-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+  margin: 2px 0;
+}
+.theme-btn:hover {
+  background: rgba(0,229,255,0.1);
+}
+
+/* Ares Theme */
+body.theme-ares {
+  background: radial-gradient(1200px 600px at 50% 0%, #2a0505 0%, #1a0505 60%, #0d0000 100%);
+}
+body.theme-ares .title {
+  color: #ff3333;
+  text-shadow: 0 0 12px rgba(255,50,50,0.6);
+  animation: blink-red 3s infinite;
+}
+body.theme-ares .progress-bar-fill {
+  background: linear-gradient(90deg, #8b0000, #ff3333);
+  box-shadow: 0 0 15px #ff3333;
+}
+body.theme-ares .sidebar li.active,
+body.theme-ares .sidebar li:hover {
+  background: #ff3333;
+  box-shadow: 0 0 10px #ff3333;
+}
+body.theme-ares .card.is-uninterested {
+  border-color: #333 !important;
+  box-shadow: none !important;
+}
+body.theme-ares .card.is-uninterested .panel-title::after {
+  color: #888;
+}
+
+/* 1982 Purple Theme */
+body.theme-original {
+  background: radial-gradient(1200px 600px at 50% 0%, #1a0a2e 0%, #0d0515 60%, #080010 100%);
+}
+body.theme-original .title {
+  color: #bb88ff;
+  text-shadow: 0 0 12px rgba(160,80,255,0.6);
+  animation: blink-purple 3s infinite;
+}
+body.theme-original .progress-bar-fill {
+  background: linear-gradient(90deg, #5500cc, #aa44ff);
+  box-shadow: 0 0 15px #aa44ff;
+}
+body.theme-original .sidebar li.active,
+body.theme-original .sidebar li:hover {
+  background: #aa44ff;
+  box-shadow: 0 0 10px #aa44ff;
+}
+
+/* Add these keyframes too */
+@keyframes blink-red {
+  0%, 100% { opacity: 1; color: #ff3333; }
+  50% { opacity: 0.4; color: #cc0000; }
+}
+@keyframes blink-purple {
+  0%, 100% { opacity: 1; color: #bb88ff; }
+  50% { opacity: 0.4; color: #7744cc; }
+}
